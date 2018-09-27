@@ -1,0 +1,503 @@
+﻿/*Base sheet produced by Andrew Edwards, Silight Studios. If I knew how to lisence this it would be under 
+the open source initiative, opensource.org. Feel free to reuse anything on this sheet in 
+whole or as a part. I only ask that you include credit to the original author.
+
+Cheers. 
+
+*/
+
+
+/* Reset */
+
+html, body {
+	margin:0;
+	padding:0;
+	border:0;
+	background:transparent;
+	font-size:10px;
+}
+
+div, span, article, aside, footer, header,
+hgroup, nav, section, h1, h2, h3, h4, h5, h6, 
+p, blockquote, a, ol, ul, li, table, tr, th, 
+tbody, tfoot, thead {
+	margin:0; 
+	padding:0;
+	border:0;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+img {
+	margin: 0; 
+	padding: 0;
+	border: 0;
+}
+
+table, tr, th, td, tbody, tfoot, thead {
+	margin:0; 
+	padding:0; 
+	border: 0; 
+	vertical-align:baseline;
+	background:transparent;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, select, textarea, form, fieldset {
+	margin:0;
+	padding: 0; 
+	border: 0;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, selection {
+	display:block;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%;
+	text-indent: 0;
+	text-decoration: none;
+	text-align: left;
+	color: #000;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/*global*/
+
+html {
+	
+}
+
+body{
+	background-color:#eeeeee;
+	
+}
+
+/*headings*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight:bold; 
+	color: #000;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size:20px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+	margin: 0;
+}
+
+/*text elements*/
+
+p {
+	color:#000;
+	font-size:12px;
+	line-height:150%
+}
+
+p .left {
+	margin:1.5em 1.5em 1.5em 0;
+	padding:0;
+}
+
+p .right {
+	margin:1.5em 0 1.5em 1.5em;
+	padding:0;
+}
+
+a {
+	
+}
+
+a:link {
+	color:#00f;
+}
+
+a:visited {
+	color:0f0;
+}
+
+a:active {
+	color:#000;
+}
+
+a:focus {
+	color:#666;
+}
+
+a:hover {
+	color:#f00;
+}
+
+blockquote {
+	color:#000;
+	font-size:12px;
+}
+
+strong {
+	font-weight:bold;
+}
+
+em {
+	font-style: italic;
+}
+
+/*images*/
+
+/*lists*/
+
+ul {
+	
+}
+
+ol {
+	list-style-type:decimal;
+}
+
+ul li {
+	color:#000;
+	font-size:12px;
+}
+
+ol li {
+	color:#000; 
+	font-size:12px;
+}
+
+dl {
+	
+}
+
+dt {
+	
+}
+
+dd {
+	
+}
+
+/*tables */
+
+table {
+	width: 100%;
+}
+
+tr {
+	
+}
+
+.odd {
+	background-color:#eee;
+}
+
+.even {
+	background-color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+thead {
+	background:#ccc;
+}
+
+tbody {
+	
+}
+
+th, td, caption {
+	
+}
+
+caption {
+	
+}
+
+tfoot {
+	
+}
+
+.tfooter {
+	background-color:#ccc;
+	text-align:center;
+	font-style:italic;
+}
+
+caption {
+	background:#efefef;
+}
+
+/*miscellaneous*/
+sup, sub {
+	line-height:0;
+}
+
+abbr, acronym {
+	border-bottom:1px dotted #666; 
+}
+
+address {
+	
+}
+
+del {
+	background: #ffcece; 
+	color:#f00;
+}
+
+code, pre {
+	background-color:#ff9; 
+	padding:2px 0px;
+	margin:4px 25px;
+	font-family:"Courier New", Courier, monospace;
+	font-size: 12px;
+}
+
+/*containers*/
+
+#wrapper {
+	width: 900px;
+	margin:0px auto;
+	background-color:#fff;
+}
+
+#top {
+	background-color:#663300;
+	widows:100%;
+	padding:20px 0px;
+	overflow:hidden;
+	
+}
+
+#logo {
+	margin:0 0 0 10px;
+	float: left;
+}
+
+#contact {
+	float:right;
+	margin: 0 10px 0 0;
+}
+#contact p {
+	margin: 4px 10px 4px 0px;
+	color:#FFFF99;
+	font-size:18px;
+	font-weight:bolder;
+}
+
+#topnav {
+	background-color:#8F6030;
+	clear:both;
+	
+}
+#topnav ul {
+	width: 100%;
+	float:left;
+	margin:0 0 0 0;
+	background-color:#8f6030;
+	border-bottom: 3px #333 solid;
+}
+#topnav ul li {
+	display:inline;
+}
+#topnav ul li a {
+	float:left;
+	padding:10px 20px;
+}
+
+#topnav a:link {
+	color:#fff;
+}
+#topnav a:visited {
+	color:#fff;
+}
+#topnav a:active {
+	color:#fff;
+}
+#topnav a:hover {
+	color:#fff; 
+	background-color:#D24400;
+}
+#topnav a:focus {
+	color:#fff;
+}
+
+
+#banner {
+	
+}
+
+#subbanner {
+	width:100%;
+	background-color:#555555;
+	padding:15px 0;
+	overflow: hidden;
+}
+#subbanner h3 {
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	line-height:180%;
+}
+
+
+#content {
+	float:left;
+	width:650px;
+	padding:20px;
+}
+#content h1 {
+	margin:0 0 20px 0;
+	font-size:32px;
+	border-bottom:1px #111 solid;
+	padding:20px 0;
+}
+#content p {
+	margin:18px 0;
+	line-height:200%;
+	
+}
+#content h2 {
+	margin:20px 0 0 0; 
+	
+}
+#content img {
+	padding:10px;
+	border:1px #888888 solid;
+	margin:8px;
+}
+
+#rightside {
+	padding:20px;	
+	margin-left:675px;
+}
+#rightside h2 {
+	margin:20px 0 10px 0;
+}
+#rightside p {
+	margin:8px 0;
+	line-height:200%;
+}
+#rightside ul li {
+	margin:8px 0;
+	line-height:200%;
+}
+#rightside table, th, td {
+	border:1px solid black;
+	width:100%;
+	margin-bottom:8px;
+}
+#rightside th, td {
+	height:50px;
+	text-align:center;
+	vertical-align:baseline;
+}
+
+#footer {
+	clear:both;
+	background-color:#663300;
+	padding:10px 0;
+	
+}
+#footer p {
+	text-align:center;
+	color:#ffff99;
+	font-size:x-small;
+}
+
+#box1 {
+	
+}
+
+#box2 {
+	
+}
+
+#box3 {
+	
+}
+
+/*layout extra*/
+
+/*navigation extra*/
+
+/*forms*/
+
+form {
+	text-align:left;
+	margin:20px;
+}
+
+label, submit, input, textarea {
+	border:0;
+	padding:0;
+	margin:0;
+	background:none;
+}
+
+label {
+	float:left;
+	width:150px;
+	text-align:right;
+	display:block;
+}
+
+input, textarea {
+	border: 1px #333 solid;
+	margin-left: 10px;
+}
+
+input {
+	width: 280px;
+	height:150px;
+	margin-bottom: 16px;
+}
+
+select {
+	
+}
+
+.submit {
+	width: 90px;
+	height: 25px;
+	margin-left: 150px;
+	font-size: 12px;
+}
+
+br {
+	clear:left;
+}
+
